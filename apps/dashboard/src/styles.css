@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+button.pink {
+    background-color: #ea4c89;
+    border-radius: 4px;
+    border-style: none;
+    color: #fff;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px 10px;
+    cursor:pointer;
+    margin-right: 10px;
+}
+button.pink:hover,
+button.pink:focus{
+    background-color: #f082ac;
+}
