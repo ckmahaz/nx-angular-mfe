@@ -1,0 +1,15 @@
+div {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  padding: 0 40px;
+}
+.wrapper {
+  border: 1px solid #ccc;
+}
+.admin-links{
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}

@@ -5,16 +5,26 @@
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-angular-mfe/dashboard/cart": ["libs/dashboard/cart/src/index.ts"],
+      "@nx-angular-mfe/dashboard/products": [
+        "libs/dashboard/products/src/index.ts"
+      ],
+      "@nx-angular-mfe/dashboard/user": ["libs/dashboard/user/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
